@@ -120,7 +120,10 @@ export default function ViewTask() {
           <Ionicons name="arrow-back" size={24} color="#fff" />
         </TouchableOpacity>
         <Text style={viewStyles.headerTitle}>Task Details</Text>
-        <TouchableOpacity style={viewStyles.editIconButton}>
+        <TouchableOpacity
+          style={viewStyles.editIconButton}
+          onPress={() => router.push(`/edit?id=${id}`)}
+        >
           <Ionicons name="create-outline" size={24} color="#fff" />
         </TouchableOpacity>
       </View>
