@@ -226,12 +226,6 @@ export default function EditTask() {
               color="#A29BFE"
             />
             <SelectButton
-              label="Tomorrow"
-              selected={formData.dueDate === "tomorrow"}
-              onPress={() => updateField("dueDate", "tomorrow")}
-              color="#A29BFE"
-            />
-            <SelectButton
               label="This Week"
               selected={formData.dueDate === "this_week"}
               onPress={() => updateField("dueDate", "this_week")}
