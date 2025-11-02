@@ -11,6 +11,11 @@ A beautiful, feature-rich task management mobile application built with React Na
 
 ## ✨ Features
 
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
+
 ### Task Management
 
 - ✅ Create, Read, Update tasks
